@@ -1,0 +1,43 @@
+.ecommerce_header{
+  background-color: rgb(37, 183, 231);
+}
+img{
+  width: 18vw;
+  padding: 1px;
+  height: 20vw;
+}
+.products{
+display: grid;
+grid-template: 100%/repeat(4,1fr);
+}
+.pagenation{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.pagebody{
+  display: flex;
+  column-gap: 10px;
+}
+.blue{
+  color: #67b6ee;
+}
+.grey{
+  color: rgb(196, 195, 195);
+}
+.Tablesection{
+  height: 500px;
+}
+.Line{
+  margin-right: 10px;
+}
+.downarrow{
+  margin-left: 10px;
+}
+.Ecommerce_container{
+  display: grid;
+  grid-template: 100%/repeat(4,1fr);
+ border: 1px solid black;
+}
